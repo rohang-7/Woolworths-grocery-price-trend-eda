@@ -148,41 +148,49 @@ Red onions fluctuate sharply; brown onions stay relatively stable.
 
 
 ## 7. Repository Structure
+```
 Woolworths-grocery-price-trend-eda/
+│
+├── Create_schema.sql
+├── Basic_Exploration.sql
+│
+├── Data/
+│   └── daily_groceries_prices.csv
+│
+├── Images/
+│   ├── Price_Index.png
+│   ├── Volatility.png
+│   ├── Price_vs_Volatility.png
+│   ├── Weekly_Average_Prices.png
+│   ├── Price_Ranks.png
+│   ├── Heatmap.png
+│   ├── Basket_Total.png
+│   ├── Red_vs_Brown_Onions.png
+│   └── Rolling_Average_Prices.png
+│
+└── Woolworths_grocery_price_trend_EDA.pdf
 
-├  Create_schema.sql
-├ Basic_Exploration.sql
+```
 
-├ Data/
-daily_groceries_prices.csv
-
-├ Images/
-Price_Index.png
-Volatility.png
-Price_vs_Volatility.png
-Weekly_Average_Prices.png
-Price_Ranks.png
-Heatmap.png
-Basket_Total.png
-Red_vs_Brown_Onions.png
-Rolling_Average_Prices.png
-
-- Woolworths_grocery_price_trend_EDA.pdf
 
 
 ## 8. Future Improvements
 This EDA is Phase 1 of a much larger project. Future expansions will include:
 
-### 🔹 1. Expanding to 30–50 grocery items covering all household essentials (bread, milk, fruits, vegetables, meats, snacks).
-### 🔹 2. Woolworths vs Coles Price Comparison: Daily pricing difference, 5-year trend, Which supermarket is cheaper by category
-### 🔹 3. Multi-Year Inflation Tracking (2015–2025) Historical view of how household spending has changed in the last decade.
-### 🔹 4. Adding Price Prediction Models
+ 🔹 1. Expanding to 30–50 grocery items covering all household essentials (bread, milk, fruits, vegetables, meats, snacks).
+ 
+ 🔹 2. Woolworths vs Coles Price Comparison: Daily pricing difference, 5-year trend, Which supermarket is cheaper by category
+ 
+ 🔹 3. Multi-Year Inflation Tracking (2015–2025) Historical view of how household spending has changed in the last decade.
+ 
+ 🔹 4. Adding Price Prediction Models
 Using:
 ARIMA
 Prophet
 LSTM
 To forecast future grocery prices.
-### 🔹 5. Dynamic Tableau Dashboard or Streamlit App - Interactive grocery inflation tracker.
+
+ 🔹 5. Dynamic Tableau Dashboard or Streamlit App - Interactive grocery inflation tracker.
 
 ## 9. Tech Stack
 
